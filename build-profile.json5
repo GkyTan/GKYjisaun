@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/耿恺漪/.ohos/config/openharmony/default_calculator-master_3DT-CQEdLYTkxKl_Rj5eDvXq2pMqZhEMqLJvY4oJeDw=.cer",
+          "storePassword": "0000001BC4101394BE3D48A10ECA5FB6D794A98A27834FBFB62D4CCD9F2C49E1A7919D952EF5F0F5B126D8",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B3AD26F4828DD3055DC73627E7B35FE1ACAA45F4C60F5E84C8CE895D6C3861F1D3F41B818ADE1C7",
+          "profile": "C:/Users/耿恺漪/.ohos/config/openharmony/default_calculator-master_3DT-CQEdLYTkxKl_Rj5eDvXq2pMqZhEMqLJvY4oJeDw=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/耿恺漪/.ohos/config/openharmony/default_calculator-master_3DT-CQEdLYTkxKl_Rj5eDvXq2pMqZhEMqLJvY4oJeDw=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 12,
+        "compatibleSdkVersion": 12,
+        "runtimeOS": "OpenHarmony"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
